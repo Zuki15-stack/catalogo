@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('../img/fondo-inah.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.tabla-ceramica th,
+.tabla-ceramica td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+.tabla-ceramica th {
+    background-color: #781f1f;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-ceramica td[contenteditable] {
+    background-color: #f7f7f7;
+}
+
+.btn-export {
+    background-color: #781f1f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.boton-volver {
+    background-color: #ba43ea;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.boton-volver:hover {
+    background-color: #a22929;
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #781f1f;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    cursor: pointer;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.floating-btn:hover {
+    background-color: #a22929;
+}
+
+.footer {
+    background-color: #781f1f;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+.botones-tabla button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    background-color: #781f1f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botones-tabla button:hover {
+    background-color: #a22929;
+}
